@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hand Calculator COS200</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+</head>
+<body>
+
+<video id="webcam" autoplay playsinline></video>
+<canvas id="canvas" width="640" height="480"></canvas>
+
+<div id="result">Loading...</div>
+<input type="checkbox" id="myCheckbox"> Show Hand Lines
+
+<script src="script.js"></script>
+
+</body>
+</html>
