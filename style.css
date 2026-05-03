@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #111;
+    font-family: Arial, sans-serif;
+}
+
+canvas, video {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#result {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 22px;
+    background: rgba(255,255,255,0.85);
+    padding: 12px;
+    border-radius: 8px;
+    white-space: pre-line;
+}
+
+#myCheckbox {
+    position: absolute;
+    top: 120px;
+    left: 15px;
+}
